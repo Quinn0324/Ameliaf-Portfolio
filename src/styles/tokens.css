@@ -1,0 +1,56 @@
+/* ============================================================
+   Design tokens — ported 1:1 from the live Webflow stylesheet
+   (portfolio---frederick-amelia.webflow.shared.css :root)
+   ============================================================ */
+:root {
+  /* Primitive colors */
+  --_primitives---colors--black: black;
+  --_primitives---colors--dark-grey: #444;
+  --_primitives---colors--light-grey: #aaa;
+  --_primitives---colors--near-black: #27211f;
+  --_primitives---colors--off-white: #f1f3f1;
+  --_primitives---colors--primary-dark: #5e1516;
+  --_primitives---colors--primary-light: #912122;
+  --_primitives---colors--primary: #771b1c;
+  --_primitives---colors--secondary-dark: #c2807b;
+  --_primitives---colors--secondary-light: #f5a29b;
+  --_primitives---colors--secondary: #db918b;
+  --_primitives---colors--white: #fff;
+
+  /* Opacity primitives */
+  --_primitives---opacity--neutral-darkest-5: #0000000d;
+  --_primitives---opacity--neutral-darkest-10: #0000001a;
+  --_primitives---opacity--neutral-darkest-15: #00000026;
+  --_primitives---opacity--neutral-darkest-20: #0003;
+  --_primitives---opacity--neutral-darkest-30: #0000004d;
+  --_primitives---opacity--neutral-darkest-40: #0006;
+  --_primitives---opacity--neutral-darkest-50: #00000080;
+  --_primitives---opacity--neutral-darkest-60: #0009;
+  --_primitives---opacity--transparent: transparent;
+  --_primitives---opacity--white-5: #ffffff0d;
+  --_primitives---opacity--white-10: #ffffff1a;
+  --_primitives---opacity--white-15: #ffffff26;
+  --_primitives---opacity--white-20: #fff3;
+  --_primitives---opacity--white-30: #ffffff4d;
+  --_primitives---opacity--white-40: #fff6;
+  --_primitives---opacity--white-50: #ffffff80;
+  --_primitives---opacity--white-60: #fff9;
+
+  /* Typography */
+  --_typography---font-styles--body: Figtree, sans-serif;
+  --_typography---font-styles--heading: "Bona Nova", sans-serif;
+
+  /* UI styles */
+  --_ui-styles---radius--large: 10px;
+  --_ui-styles---radius--medium: 5px;
+  --_ui-styles---radius--small: 5px;
+  --_ui-styles---stroke--border-width: 2.5px;
+  --_ui-styles---stroke--divider-width: 1px;
+
+  /* Color scheme 1 (the only scheme on the site) */
+  --color-scheme-1--accent: var(--_primitives---colors--secondary);
+  --color-scheme-1--background: var(--_primitives---colors--white);
+  --color-scheme-1--border: var(--_primitives---colors--primary);
+  --color-scheme-1--foreground: var(--_primitives---colors--primary);
+  --color-scheme-1--text: var(--_primitives---colors--black);
+}
